@@ -4,6 +4,8 @@ defaultContentLanguage = "fr"
 theme = "learn"
 pygmentsUseClasses = true
 
+relativeURLs = true
+
 [params]
   themeVariant = "mine"
   showVisitedLinks = true
