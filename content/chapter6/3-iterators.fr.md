@@ -25,7 +25,7 @@ Vous pouvez trouver sur [cette page](https://fr.cppreference.com/w/cpp/iterator)
 Vous pouvez ensuite cliquer sur chacune des catégories pour obtenir la liste des conditions à remplir pour qu'une classe puisse être assimilée à un itérateur de cette catégorie.
 
 Par exemple, pour implémenter un itérateur bidirectionnel (c'est-à-dire qui permet aussi bien d'avancer que de reculer) :
-![](/CPP_Learning/images/chapter6/doc-it-cat.png)
+![](/images/chapter6/doc-it-cat.png)
 - il faut déjà satisfaire aux exigences du `ForwardIterator` (= itérateur qui permet d'avancer dans une plage)
 - il faut implémenter l'opérateur de décrémentation et l'opérateur de post-décrémentation, avec les bons types de retour
 - il faut que `*it--` (déréférencement du résultat de la post-décrémentation) soit de type `reference` (voir plus bas).

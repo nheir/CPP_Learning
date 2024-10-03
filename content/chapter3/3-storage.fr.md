@@ -27,7 +27,7 @@ int var = 145;
 
 Comme `var` est de type entier, la zone mémoire s'étend sur 4 octets, c'est-à-dire entre `0x00e8` et `0x00eb`.
 
-![Représentation d'une variable en mémoire](/CPP_Learning/images/chapter3/storage/01-var.svg)
+![Représentation d'une variable en mémoire](/images/chapter3/storage/01-var.svg)
 
 #### Pointeurs
 
@@ -38,7 +38,7 @@ Si les adresses sont encodées sur 64 bits, la taille d'un pointeur est de 8 oct
 int* ptr = &var;
 ```
 
-![Représentation d'un pointeur en mémoire](/CPP_Learning/images/chapter3/storage/02-ptr.svg)
+![Représentation d'un pointeur en mémoire](/images/chapter3/storage/02-ptr.svg)
 
 #### Références
 
@@ -52,7 +52,7 @@ int& ref = var;
 Ci-dessous, `ref` correspond donc au même bloc que `var`.  
 Nous l'avons représenté en italique pour indiquer que la durée de vie de la donnée n'est pas couplée à l'identifiant `ref`.
 
-![Représentation d'une référence en mémoire](/CPP_Learning/images/chapter3/storage/03-ref.svg)
+![Représentation d'une référence en mémoire](/images/chapter3/storage/03-ref.svg)
 
 #### Type-structuré
 
@@ -74,7 +74,7 @@ struct Box
 Box box;
 ```
 
-![Représentation d'un objet en mémoire](/CPP_Learning/images/chapter3/storage/04-struct.svg)
+![Représentation d'un objet en mémoire](/images/chapter3/storage/04-struct.svg)
 
 {{% notice tip %}}
 Si vous voulez éviter de perdre de l'espace dans vos types-structurés, vous pouvez modifier l'ordre dans lequel vous définissez vos attributs.  
@@ -118,7 +118,7 @@ void f1()
 ```
 
 A l'exécution, la pile pourrait avoir le contenu suivant :
-![Contenu de la pile](/CPP_Learning/images/chapter3/storage/05-stack.svg)
+![Contenu de la pile](/images/chapter3/storage/05-stack.svg)
 
 Le haut de la pile est indiqué par la flèche.  
 `l.9`: On entre d'abord dans la fonction `f1`.  
@@ -171,7 +171,7 @@ int main()
 }
 ```
 
-![Contenu de la pile et du tas](/CPP_Learning/images/chapter3/storage/06-heap.svg)
+![Contenu de la pile et du tas](/images/chapter3/storage/06-heap.svg)
 
 `l.9`: On appelle la fonction `make_int` avec l'argument `1`.  
 `l.2`: On entre dans la fonction, on ajoute le paramètre `value` dans la pile.  

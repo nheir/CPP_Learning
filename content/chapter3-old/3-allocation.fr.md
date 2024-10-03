@@ -455,11 +455,11 @@ int main()
 Le programme fonctionne comme attendu car nous avons introduit un niveau intermédiaire entre la mémoire du `vector` à la mémoire des objets de type `Content`.
 
 Avant, pendant la réallocation, chacun des objets `Content` était déplacé vers une nouvelle zone de la mémoire, d'où l'invalidation des références.
-![](/CPP_Learning/images/chapter3/bag-realloc-content.svg)
+![](/images/chapter3/bag-realloc-content.svg)
 
 Désormais, ce sont les `unique_ptr` qui sont déplacés ailleurs.
 Les éléments de type `Content` restent à leur place.\
 La référence `my_thing` qui pointe sur l'un d'entre eux reste donc valide aussi longtemps que `bag` l'est aussi.
-![](/CPP_Learning/images/chapter3/bag-realloc-ptr.svg)
+![](/images/chapter3/bag-realloc-ptr.svg)
 
 

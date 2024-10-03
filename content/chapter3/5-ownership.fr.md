@@ -32,7 +32,7 @@ void fcn()
 Dans l'exemple ci-dessus, `a` est désinstanciée à la sortie de `fcn`.  
 On pourra donc dire que la donnée portée par `a` est ownée par la fonction `fcn`, ou encore que `fcn` own `a`.
 
-![Variable locale](/CPP_Learning/images/chapter3/ownership/01-local-var.svg)
+![Variable locale](/images/chapter3/ownership/01-local-var.svg)
 
 #### Attribut-valeur
 
@@ -54,7 +54,7 @@ int main()
 Ici, la donnée portée par l'attribut `value` de l'instance `s` est ownée par `s`.  
 On peut dire plus simplement que `s` own `s.value`.
 
-![Attribut-valeur](/CPP_Learning/images/chapter3/ownership/02-value-attribute.svg)
+![Attribut-valeur](/images/chapter3/ownership/02-value-attribute.svg)
 
 #### Attribut-référence
 
@@ -83,7 +83,7 @@ La donnée portée par `clio.driver` correspond à la variable `gontrand` défin
 Le owner de `clio.driver` n'est donc pas `clio`, puisque la destruction de `clio` n'entrainera pas la destruction de `gontrand`.  
 Dans ce cas précis, c'est la fonction `main` qui own le contenu de `clio.driver`.
 
-![Attribut-référence](/CPP_Learning/images/chapter3/ownership/03-ref-attribute.svg)
+![Attribut-référence](/images/chapter3/ownership/03-ref-attribute.svg)
 
 #### Ressources gérées par une classe
 
@@ -101,7 +101,7 @@ Chacun des `Driver` faisant partie du tableau est stocké sur un segment-mémoir
 Ce segment sera libéré à la destruction de `drivers` (ou plus tôt, en fonction des fonctions qu'on appelera sur l'objet), entraînant la désinstanciation des `Drivers`.  
 On peut donc dire que `drivers` own chacun des éléments de type `Driver` ajoutés via l'appel à `emplace_back`.
 
-![std::vector](/CPP_Learning/images/chapter3/ownership/04-vector.svg)
+![std::vector](/images/chapter3/ownership/04-vector.svg)
 
 #### Pointeur-ownant
 
@@ -130,7 +130,7 @@ Il est par conséquent responsable du cycle de vie de cet entier.
 Comme `ptr` est la valeur de retour de `create_int`, cette responsabilité est transmise à `five` au retour dans la fonction `main`, faisant de lui un pointeur-ownant.  
 La responsabilité de la désinstanciation de l'entier étant attribué à `five`, on a pensé à exécuter `delete five` avant de sortir du `main`.
 
-![Pointeur-ownant](/CPP_Learning/images/chapter3/ownership/05-owning-ptr.svg)
+![Pointeur-ownant](/images/chapter3/ownership/05-owning-ptr.svg)
 
 #### Pointeur-observant
 
@@ -174,7 +174,7 @@ int main()
 {{% hidden-solution %}}
 Les éléments de `all_drivers` étant des pointeurs, on utilise un contour plein pour les cases du tableau.  
 En revanche, comme ces pointeurs ne contrôlent pas le cycle de vie de chacun des `Drivers`, on les relie vers eux avec des flèches en pointillé.
-![Pointeur-observant](/CPP_Learning/images/chapter3/ownership/06-observing-ptr.svg)
+![Pointeur-observant](/images/chapter3/ownership/06-observing-ptr.svg)
 {{% /hidden-solution %}}
 
 ---
@@ -211,14 +211,14 @@ int main()
 
 1. Dessinez le graphe d'ownership à la ligne 3, lorsque le `main` vient d'appeler `get_max`.
 {{% hidden-solution %}}
-![](/CPP_Learning/images/chapter3/ownership/07-case-1a.svg)
+![](/images/chapter3/ownership/07-case-1a.svg)
 {{% /hidden-solution %}}
 
 2. Dessinez maintenant le graphe d'ownership associé au retour de la fonction `get_max` dans le `main`.  
 {{% hidden-solution %}}
 Il faut faire pointer la variable-référence `max` sur `v2`, et non sur `b`.  
 En effet, `b` n'est pas une donnée, juste un alias, on ne peut donc pas faire pointer une référence dessus.
-![](/CPP_Learning/images/chapter3/ownership/07-case-1b.svg)
+![](/images/chapter3/ownership/07-case-1b.svg)
 {{% /hidden-solution %}}
 
 3. Redessinez le graphe correspondant au retour de la fonction `get_max`, mais en supposant que `get_max` attende ses paramètres par valeur.
@@ -226,7 +226,7 @@ Le résultat est par contre toujours retourné par référence.
 {{% hidden-solution %}}
 Les paramètres `a` et `b` sont maintenant des données.  
 La variable-référence `max` pointera donc sur `b` et plus sur `v2`.
-![](/CPP_Learning/images/chapter3/ownership/07-case-1c.svg)
+![](/images/chapter3/ownership/07-case-1c.svg)
 {{% /hidden-solution %}}
 
 4. Quel problème est mis en avant par ce graphe ?
@@ -283,13 +283,13 @@ Selon-vous, les pointeurs contenus dans `ManyAnimals::animals` sont-ils ownants 
 Le destructeur de `ManyAnimals` se charge de libérer la mémoire associée à chacun des pointeurs contenus dans l'attribut `animals`.  
 Ces pointeurs étant utilisés pour gérer le cycle de vie des données pointées, il s'agit de pointeurs-ownants.  
 On représente donc les relations associées avec des flèches pleines.
-![](/CPP_Learning/images/chapter3/ownership/07-case-2a.svg)
+![](/images/chapter3/ownership/07-case-2a.svg)
 {{% /hidden-solution %}}
 
 2. Dessinez maintenant les modifications dans ce graphe une fois arrivé à la ligne 14 (c'est-à-dire pendant la sortie du `main`, lorsque l'instance de `many_animals` est en cours de destruction).
 {{% hidden-solution %}}
 À la ligne 14, les instances de `Animal` ont toutes été libérées.  
-![](/CPP_Learning/images/chapter3/ownership/07-case-2b.svg)
+![](/images/chapter3/ownership/07-case-2b.svg)
 {{% /hidden-solution %}}
 
 3. La ligne 34 est commentée, car si elle ne l'est pas, le programme se termine avec une erreur.  
@@ -298,7 +298,7 @@ Quel est le problème dans ce graphe ?
 {{% hidden-solution %}}
 L'argument est passé par valeur, on a donc une copie de la variable `many_animals`.  
 En revanche, lorsqu'un pointeur est copié, l'élément pointé ne l'est pas.
-![](/CPP_Learning/images/chapter3/ownership/07-case-2c.svg)
+![](/images/chapter3/ownership/07-case-2c.svg)
 Le problème ici, c'est qu'on a maintenant deux owners pour les données `dog`, `cat` et `mouse`.
 {{% /hidden-solution %}}
 
@@ -306,7 +306,7 @@ Le problème ici, c'est qu'on a maintenant deux owners pour les données `dog`, 
 Expliquez ce qui pose problème et qui empêche le programme de se terminer correctement.
 {{% hidden-solution %}}
 À la fin de `display_animals`, on désinstancie le paramètre `many_animals`, ainsi que les données qu'il own récursivement.
-![](/CPP_Learning/images/chapter3/ownership/07-case-2d.svg)
+![](/images/chapter3/ownership/07-case-2d.svg)
 Les pointeurs contenus dans `many_animals.animals` (la variable du `main`) pointent donc sur des données invalidées.  
 À la destruction de `many_animals`, les instructions `delete a` vont par conséquent échouer.
 {{% /hidden-solution %}}
@@ -315,7 +315,7 @@ Les pointeurs contenus dans `many_animals.animals` (la variable du `main`) point
 {{% hidden-solution %}}
 Il suffit de changer la signature de `display_animals` pour passer le paramètre par référence (qui peut d'ailleurs être constante).
 Les références n'ayant pas d'impact sur le cycle de vie des données, lorsque l'on sort de la fonction, aucun élément ne sera désinstancié.
-![](/CPP_Learning/images/chapter3/ownership/07-case-2e.svg)
+![](/images/chapter3/ownership/07-case-2e.svg)
 {{% /hidden-solution %}}
 
 ---

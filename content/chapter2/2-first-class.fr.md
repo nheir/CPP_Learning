@@ -146,7 +146,7 @@ g++ -g -std=c++17 -o 1-first_class 1-first_class.cpp
 ```
 
 Ensuite, pour pouvoir lancer le programme depuis VSCode, vous devez configurer le fichier `.vscode/launch.json`.  
-Si ce n'est pas encore fait, rendez vous sur [cette section](/CPP_Learning/chapter0/6-tips/2-vscode/#configuration-du-fichier-launchjson), et remplacez bien le paramètre `program` par le chemin de l'exécutable.
+Si ce n'est pas encore fait, rendez vous sur [cette section](/chapter0/6-tips/2-vscode/#configuration-du-fichier-launchjson), et remplacez bien le paramètre `program` par le chemin de l'exécutable.
 Par exemple, si vous avez suivi la correction, vous pouvez indiquer :
 ```json
 "program": "${workspaceFolder}/chap-02/1-first_class",
@@ -163,14 +163,14 @@ Par défaut, VSCode propose des raccourcis clavier pour les différentes fonctio
 
 Ici, vous allez placer un breakpoint sur l'instruction `return 0;` du `main`. 
 Pour cela, placez votre curseur sur la ligne en question et appuyez sur F9. Vous pouvez aussi cliquer directement à gauche du numéro de ligne.
-![](/CPP_Learning/images/vscode-breakpoint.png)
+![](/images/vscode-breakpoint.png)
 
 Utilisez ensuite F5 pour lancer le programme.
 L'éditeur devrait prendre cette apparence, indiquant que le programme est en pause juste avant l'exécution de l'instruction surlignée :
-![](/CPP_Learning/images/vscode-breaking.png)
+![](/images/vscode-breaking.png)
 
 Ouvrez maintenant le panneau d'exécution en allant dans `View > Run`.
-![](/CPP_Learning/images/vscode-locals.png)
+![](/images/vscode-locals.png)
 
 Ce panneau contient 3 sections :
 - La section **Variables**, dans laquelle vous pouvez voir le contenu de chacune des variables locales à votre fonction.
@@ -215,7 +215,7 @@ Testez à nouveau votre code avec le débuggeur. En plus du breakpoint final, aj
 
 {{% hidden-solution %}}
 Pour s'arrêter au bon endroit, il faut placer le breakpoint sur la ligne de l'instruction `p.set_age(23);`.
-![](/CPP_Learning/images/chap2-ex1-break.png)
+![](/images/chap2-ex1-break.png)
 {{% /hidden-solution %}}
 
 Si vous inspectez la valeur de `p._age` avant l'exécution de `set_age`, il est possible que celle-ci soit complètement aléatoire. Eh oui, de la même manière que les variables locales de types fondamentaux, il faut également initialiser les attributs de types fondamentaux de vos classes. Faites les changements nécessaires pour que l'âge de Batman vaille 0 tant que celui-ci n'a pas été modifié. Testez à nouveau.

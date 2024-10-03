@@ -19,18 +19,18 @@ MSYS2 contient en particulier MinGW, qui est l'équivalent du compilateur gcc/g+
    pacman -S mingw-w64-ucrt-x86_64-gdb
    ```
 4. Ouvrez l'éditeur de variables d'environnement Windows.
-![](/CPP_Learning/images/chapter0/env-var.png)
-5. Dans la variable `Path` (utilisateur ou système, peu importe), ajoutez `"C:\msys64\ucrt64\bin"`.
-![](/CPP_Learning/images/chapter0/add-path-v2.png)
-6. Si vous aviez une autre version de MinGW d'installée (en général dans C:\mingw), c'est **très important** que vous supprimiez son répertoire bin/ du `Path` utilisateur **et** du `Path` système.
-![](/CPP_Learning/images/chapter0/rm-path-v2.png)
-7. Ouvrez un terminal Window et exécutez `g++ -v`\
+![](/images/chapter0/env-var.png)
+1. Dans la variable `Path` (utilisateur ou système, peu importe), ajoutez `"C:\msys64\ucrt64\bin"`.
+![](images/chapter0/add-path-v2.png)
+1. Si vous aviez une autre version de MinGW d'installée (en général dans C:\mingw), c'est **très important** que vous supprimiez son répertoire bin/ du `Path` utilisateur **et** du `Path` système.
+![](/images/chapter0/rm-path-v2.png)
+1. Ouvrez un terminal Window et exécutez `g++ -v`\
 La dernière ligne devrait maintenant indiquer une version de gcc >= 9.
 
 Testez maintenant que tout fonctionne en suivant les étapes ci-dessous.
-1. Téléchargez {{< open_in_new_tab "/CPP_Learning/code/helloworld.cpp" "ce fichier" />}}.
+1. Téléchargez {{< open_in_new_tab "/code/helloworld.cpp" "ce fichier" />}}.
 2. Ouvrez une fenêtre Powershell dans le répertoire contenant le fichier (vous pouvez utiliser `Shift + Clic Droit` depuis l'explorateur de fichiers pour faire apparaître l'option dans le menu contextuel).
-![](/CPP_Learning/images/chapter0/powershell.png)
+![](/images/chapter0/powershell.png)
 3. Exécutez la commande `g++ .\helloworld.cpp -o hello`\
 Un fichier `hello.exe` devrait avoir été généré.
 4. Exécutez `.\hello.exe`.
@@ -47,7 +47,7 @@ Assurez-vous que la dernière ligne indique bien une version de gcc >= 9.
 Vérifiez une nouvelle fois que votre g++ est bien à jour.
 
 Testez maintenant que tout fonctionne en suivant les étapes ci-dessous.
-1. Téléchargez {{< open_in_new_tab "/CPP_Learning/code/helloworld.cpp" "ce fichier" />}}.
+1. Téléchargez {{< open_in_new_tab "/code/helloworld.cpp" "ce fichier" />}}.
 2. Ouvrez un terminal et placez-vous dans le répertoire contenant le fichier téléchargé : `cd path/to/folder`
 3. Exécutez la commande `g++ ./helloworld.cpp -o hello`\
 Un fichier `hello` devrait avoir été généré.
@@ -62,7 +62,7 @@ Le programme devrait vous répondre `"Hello!"`.
 2. Si la commande échoue, installez clang en exécutant `xcode-select --install`
 
 Testez maintenant que tout fonctionne en suivant les étapes ci-dessous.
-1. Téléchargez {{< open_in_new_tab "/CPP_Learning/code/helloworld.cpp" "ce fichier" />}}.
+1. Téléchargez {{< open_in_new_tab "/code/helloworld.cpp" "ce fichier" />}}.
 2. Ouvrez un terminal et placez-vous dans le répertoire contenant le fichier téléchargé : `cd path/to/folder`
 3. Exécutez la commande `clang++ ./helloworld.cpp -o hello`\
 Un fichier `hello` devrait avoir été généré.
