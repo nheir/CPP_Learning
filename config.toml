@@ -1,8 +1,9 @@
-baseURL = "https://laefy.github.io/CPP_Learning/"
+baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "fr"
 theme = "relearn"
 pygmentsUseClasses = true
+relativeURLs = true
 
 [params]
   themeVariant = "mine"
