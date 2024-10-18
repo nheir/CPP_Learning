@@ -1,67 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Classes on Cours de C&#43;&#43; - Niveau Master</title>
-    <link>https://laefy.github.io/CPP_Learning/chapter2/</link>
-    <description>Recent content in Classes on Cours de C&#43;&#43; - Niveau Master</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    <atom:link href="https://laefy.github.io/CPP_Learning/chapter2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C&#39;est quoi un objet déjà ?</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/1-poo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/1-poo/</guid>
-      <description>Commençons par quelques piqûres de rappel à propos des notions de POO que vous avez pu voir l&amp;rsquo;an dernier.&#xA;Objet Dans un programme, un objet est un élément constitué d&amp;rsquo;un état, et disposant d&amp;rsquo;une interface permettant d&amp;rsquo;intéragir avec cet état.&#xA;Classe Un objet est généralement créé à partir d&amp;rsquo;un modèle, que l&amp;rsquo;on appelle classe. Un objet créé à partir d&amp;rsquo;une classe constitue une instance de cette classe.&#xA;Etat L&amp;rsquo;état d&amp;rsquo;un objet est composé de valeurs, pouvant ou non varier au cours de l&amp;rsquo;exécution du programme.</description>
-    </item>
-    <item>
-      <title>Première classe ✨</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/2-first-class/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/2-first-class/</guid>
-      <description>C&amp;rsquo;est parti pour la pratique ! Vous allez ici apprendre à définir une classe en C++ et à l&amp;rsquo;instancier.&#xA;Commencez par ouvrir le dépôt d&amp;rsquo;exercices dans VSCode.&#xA;Méthodologie Ouvrez le fichier chap-02/1-first_class.cpp, dans lequel on vous fournit le code de la fonction main.&#xA;int main() { // Person p; // p.set_name(&amp;#34;Batman&amp;#34;); // p.set_age(23); // std::cout &amp;lt;&amp;lt; &amp;#34;Person named &amp;#39;&amp;#34; &amp;lt;&amp;lt; p.get_name() &amp;lt;&amp;lt; &amp;#34;&amp;#39; is &amp;#34; &amp;lt;&amp;lt; p.get_age() &amp;lt;&amp;lt; &amp;#34; years old.</description>
-    </item>
-    <item>
-      <title>Constructeur 🔨</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/3-constructor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/3-constructor/</guid>
-      <description>Dans cet exercice, vous apprendrez à paramétrer la construction de vos objets.&#xA;Constructeur à paramètres Ouvrez le fichier chap-02/2-constructor.cpp. Il contient une correction de l&amp;rsquo;exercice précédent.&#xA;Vous aviez implémenté une fonction-membre set_name dans la classe Person pour initialiser l&amp;rsquo;attribut _name. Or, ce serait bien d&amp;rsquo;une part de réellement pouvoir initialiser cet attribut plutôt que de le modifier après l&amp;rsquo;instanciation, et d&amp;rsquo;autre part, de supprimer ce setter, afin qu&amp;rsquo;une fois initialisé, il ne soit plus possible de modifier _name.</description>
-    </item>
-    <item>
-      <title>Destructeur 💣</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/4-destructor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/4-destructor/</guid>
-      <description>Si le constructeur est la fonction qui permet de définir ce qu&amp;rsquo;il se passe lorsqu&amp;rsquo;un objet est instancié, vous vous doutez probablement que le destructeur est la fonction qui permet de définir ce qu&amp;rsquo;il se passe lorsqu&amp;rsquo;un objet est &amp;ldquo;désinstancié&amp;rdquo;.&#xA;Sur cette page, nous vous expliquerons d&amp;rsquo;abord où se produit la désinstanciation d&amp;rsquo;un objet, et nous vous montrerons ensuite comment définir son destructeur.&#xA;Désinstanciation, kesako ?? La désinstanciation, c&amp;rsquo;est tout simplement le contraire de l&amp;rsquo;instanciation.</description>
-    </item>
-    <item>
-      <title>Modularité 🧱</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/5-modules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/5-modules/</guid>
-      <description>Cet exercice vous permettra de découvrir :&#xA;comment écrire des headers en C++, comment extraire l&amp;rsquo;implémentation des fonctions d&amp;rsquo;une classe en dehors de cette classe, à quoi correspondent les membres statiques d&amp;rsquo;une classe et comment les définir, comment déléguer un appel à un autre constructeur. Séparer l&amp;rsquo;implémentation des fonctions-membres Ouvrez le dossier chap-02/4-modules. Celui-ci est composé de 3 fichiers :&#xA;main.cpp, qui contient une fonction main déjà écrite Rectangle.h, qui contient une classe Rectangle, Rectangle.</description>
-    </item>
-    <item>
-      <title>Opérateurs ➗</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/6-polygon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/6-polygon/</guid>
-      <description>Sur cette page, nous vous montrerons comment implémenter vos propres opérateurs.&#xA;Nous en profiterons aussi pour vous expliquer comment définir un alias de type et comment définir des fonctions amies.&#xA;Définition Un opérateur est une fonction, mais qui peut être appelée avec une syntaxe &amp;ldquo;simplifiée&amp;rdquo;.&#xA;Prenons l&amp;rsquo;exemple de la concaténation de std::string :&#xA;auto a = std::string { &amp;#34;a&amp;#34; }; auto b = std::string { &amp;#34;b&amp;#34; }; auto ab = a + b; Dans le code ci-dessus, l&amp;rsquo;expression a + b est en fait un appel à une fonction dont la signature est quelque chose comme: operator+(std::string, std::string).</description>
-    </item>
-    <item>
-      <title>Questionnaire ☑</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/test/</guid>
-      <description>Vous êtes :&#xD;Votre adresse mail :&#xD;Votre groupe :&#xD;Initiaux 1&#xD;Initiaux 2&#xD;Alternants&#xD;1- Quel est le terme C++ permettant de désigner les “méthodes” d’une classe ?&#xA;2- Supposons une classe Cercle disposant d’un attribut _points de type std::vector&amp;lt;point&amp;gt;. Quel invariant cette classe pourrait-elle décider d’enforcer ?&#xA;3- Citez une règle permettant de respecter le principe d’encapsulation en C++.&#xA;4- En quoi consiste la méthodologie TDD ?</description>
-    </item>
-    <item>
-      <title>Merci !</title>
-      <link>https://laefy.github.io/CPP_Learning/chapter2/test_done/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://laefy.github.io/CPP_Learning/chapter2/test_done/</guid>
-      <description>&#xD;Vos réponses nous ont bien été communiquées 😃&#xD;N&#39;hésitez pas à nous relancer si vous n&#39;avez pas eu de nouvelles après une semaine !&#xD;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Classes :: Cours de C++ - Niveau Master</title><link>/chapter2/index.html</link><description>L’objectif de ce chapitre est de vous apprendre à créer et utiliser des classes en C++.</description><generator>Hugo</generator><language>fr</language><atom:link href="/chapter2/index.xml" rel="self" type="application/rss+xml"/><item><title>C'est quoi un objet déjà ?</title><link>/chapter2/1-poo/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/1-poo/index.html</guid><description>Commençons par quelques piqûres de rappel à propos des notions de POO que vous avez pu voir l’an dernier.
+Objet Dans un programme, un objet est un élément constitué d’un état, et disposant d’une interface permettant d’intéragir avec cet état.
+Classe Un objet est généralement créé à partir d’un modèle, que l’on appelle classe. Un objet créé à partir d’une classe constitue une instance de cette classe.
+Etat L’état d’un objet est composé de valeurs, pouvant ou non varier au cours de l’exécution du programme.</description></item><item><title>Première classe ✨</title><link>/chapter2/2-first-class/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/2-first-class/index.html</guid><description>C’est parti pour la pratique ! Vous allez ici apprendre à définir une classe en C++ et à l’instancier.
+Commencez par ouvrir le dépôt d’exercices dans VSCode.
+Méthodologie Ouvrez le fichier chap-02/1-first_class.cpp, dans lequel on vous fournit le code de la fonction main.
+int main() { // Person p; // p.set_name("Batman"); // p.set_age(23); // std::cout &lt;&lt; "Person named '" &lt;&lt; p.get_name() &lt;&lt; "' is " &lt;&lt; p.get_age() &lt;&lt; " years old.</description></item><item><title>Constructeur 🔨</title><link>/chapter2/3-constructor/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/3-constructor/index.html</guid><description>Dans cet exercice, vous apprendrez à paramétrer la construction de vos objets.
+Constructeur à paramètres Ouvrez le fichier chap-02/2-constructor.cpp. Il contient une correction de l’exercice précédent.
+Vous aviez implémenté une fonction-membre set_name dans la classe Person pour initialiser l’attribut _name. Or, ce serait bien d’une part de réellement pouvoir initialiser cet attribut plutôt que de le modifier après l’instanciation, et d’autre part, de supprimer ce setter, afin qu’une fois initialisé, il ne soit plus possible de modifier _name.</description></item><item><title>Destructeur 💣</title><link>/chapter2/4-destructor/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/4-destructor/index.html</guid><description>Si le constructeur est la fonction qui permet de définir ce qu’il se passe lorsqu’un objet est instancié, vous vous doutez probablement que le destructeur est la fonction qui permet de définir ce qu’il se passe lorsqu’un objet est “désinstancié”.
+Sur cette page, nous vous expliquerons d’abord où se produit la désinstanciation d’un objet, et nous vous montrerons ensuite comment définir son destructeur.
+Désinstanciation, kesako ?? La désinstanciation, c’est tout simplement le contraire de l’instanciation.</description></item><item><title>Modularité 🧱</title><link>/chapter2/5-modules/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/5-modules/index.html</guid><description>Cet exercice vous permettra de découvrir :
+comment écrire des headers en C++, comment extraire l’implémentation des fonctions d’une classe en dehors de cette classe, à quoi correspondent les membres statiques d’une classe et comment les définir, comment déléguer un appel à un autre constructeur. Séparer l’implémentation des fonctions-membres Ouvrez le dossier chap-02/4-modules. Celui-ci est composé de 3 fichiers :
+main.cpp, qui contient une fonction main déjà écrite Rectangle.h, qui contient une classe Rectangle, Rectangle.</description></item><item><title>Opérateurs ➗</title><link>/chapter2/6-polygon/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/6-polygon/index.html</guid><description>Sur cette page, nous vous montrerons comment implémenter vos propres opérateurs.
+Nous en profiterons aussi pour vous expliquer comment définir un alias de type et comment définir des fonctions amies.
+Définition Un opérateur est une fonction, mais qui peut être appelée avec une syntaxe “simplifiée”.
+Prenons l’exemple de la concaténation de std::string :
+auto a = std::string { "a" }; auto b = std::string { "b" }; auto ab = a + b; Dans le code ci-dessus, l’expression a + b est en fait un appel à une fonction dont la signature est quelque chose comme: operator+(std::string, std::string).</description></item><item><title>Questionnaire ☑</title><link>/chapter2/test/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/test/index.html</guid><description>Vous êtes : Votre adresse mail : Votre groupe : Initiaux 1 Initiaux 2 Alternants 1- Quel est le terme C++ permettant de désigner les “méthodes” d’une classe ?
+2- Supposons une classe Cercle disposant d’un attribut _points de type std::vector&lt;point>. Quel invariant cette classe pourrait-elle décider d’enforcer ?
+3- Citez une règle permettant de respecter le principe d’encapsulation en C++.
+4- En quoi consiste la méthodologie TDD ?</description></item><item><title>Merci !</title><link>/chapter2/test_done/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/chapter2/test_done/index.html</guid><description>Vos réponses nous ont bien été communiquées 😃 N'hésitez pas à nous relancer si vous n'avez pas eu de nouvelles après une semaine !</description></item></channel></rss>

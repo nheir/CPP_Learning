@@ -1,5 +1,7 @@
 :root {
 
+    --CODE-theme: relearn-light;
+
     --WHITE: #FFFFFF;
     --WHITE-DARK: #E6E6FF;
 
@@ -271,6 +273,12 @@ div.hidden-solution-content>:last-child {
 }
 
 /* Question widget */
+
+
+#footer-question-btn,
+#footer-question-window {
+    z-index: 71;
+}
 
 #footer-question-btn:disabled,
 #footer-question-window[disabled] {
