@@ -1,5 +1,6 @@
 ---
 title: "Workflow"
+hidden: true
 ---
 
 Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.

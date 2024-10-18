@@ -1,5 +1,6 @@
 ---
 title: Question Submitted
+hidden: true
 ---
 
 <script>

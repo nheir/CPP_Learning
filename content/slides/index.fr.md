@@ -1,5 +1,6 @@
 ---
 title: "Slides"
+hidden: true
 ---
 
 Ci-dessous, vous trouverez le lien pour télécharger les slides de chaque séance de cours magistraux.
