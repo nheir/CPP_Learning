@@ -1,97 +1,540 @@
-<!doctype html><html lang=fr dir=ltr itemscope itemtype=http://schema.org/Article><head><meta charset=utf-8><meta name=viewport content="height=device-height,width=device-width,initial-scale=1,minimum-scale=1"><meta name=generator content="Hugo 0.128.0"><meta name=generator content="Relearn 7.0.1+72a875f1db967152c77914cff4d53f8fcee0e619"><meta name=description content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
-Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné."><meta name=author content><meta name=twitter:card content="summary"><meta name=twitter:title content="Workflow :: Cours de C++ - Niveau Master"><meta name=twitter:description content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
-Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné."><meta property="og:url" content="/workflow/index.html"><meta property="og:site_name" content="Cours de C++ - Niveau Master"><meta property="og:title" content="Workflow :: Cours de C++ - Niveau Master"><meta property="og:description" content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
-Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné."><meta property="og:locale" content="fr"><meta property="og:type" content="article"><meta property="article:section" content="Accueil"><meta itemprop=name content="Workflow :: Cours de C++ - Niveau Master"><meta itemprop=description content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
-Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné."><meta itemprop=wordCount content="965"><title>Workflow :: Cours de C++ - Niveau Master</title>
-<link href=../css/fontawesome-all.min.css?1729268597 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=../css/fontawesome-all.min.css?1729268597 rel=stylesheet></noscript><link href=../css/nucleus.css?1729268597 rel=stylesheet><link href=../css/auto-complete.css?1729268597 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=../css/auto-complete.css?1729268597 rel=stylesheet></noscript><link href=../css/perfect-scrollbar.min.css?1729268597 rel=stylesheet><link href=../css/fonts.css?1729268597 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=../css/fonts.css?1729268597 rel=stylesheet></noscript><link href=../css/theme.css?1729268597 rel=stylesheet><link href=../css/theme-mine.css?1729268597 rel=stylesheet id=R-variant-style><link href=../css/chroma-relearn-light.css?1729268597 rel=stylesheet id=R-variant-chroma-style><link href=../css/print.css?1729268597 rel=stylesheet media=print><script src=../js/variant.js?1729268597></script><script>window.relearn=window.relearn||{},window.relearn.relBasePath="..",window.relearn.relBaseUri="..",window.relearn.absBaseUri="",window.relearn.disableAnchorCopy=!1,window.relearn.disableAnchorScrolling=!1,window.variants&&variants.init(["mine"]),window.T_Copy_to_clipboard=`Copier dans le presse-papiers`,window.T_Copied_to_clipboard=`Copié dans le presse-papiers!`,window.T_Copy_link_to_clipboard=`Copier le lien dans le presse-papiers`,window.T_Link_copied_to_clipboard=`Lien copié dans le presse-papiers!`,window.T_Reset_view=`Réinitialiser la vue`,window.T_View_reset=`Vue réinitialisée!`,window.T_No_results_found=`Aucun résultat trouvé pour "{0}"`,window.T_N_results_found=`{1} résultats trouvés pour "{0}"`</script></head><body class="mobile-support html disableInlineCopyToClipboard" data-url=../workflow/index.html><div id=R-body class=default-animation><div id=R-body-overlay></div><nav id=R-topbar><div class=topbar-wrapper><div class=topbar-sidebar-divider></div><div class="topbar-area topbar-area-start" data-area=start><div class="topbar-button topbar-button-sidebar" data-content-empty=disable data-width-s=show data-width-m=hide data-width-l=hide><button class=topbar-control onclick=toggleNav() type=button title="Menu (CTRL+ALT+n)"><i class="fa-fw fas fa-bars"></i></button></div><div class="topbar-button topbar-button-toc" data-content-empty=hide data-width-s=show data-width-m=show data-width-l=show><button class=topbar-control onclick=toggleTopbarFlyout(this) type=button title="Table des matières (CTRL+ALT+t)"><i class="fa-fw fas fa-list-alt"></i></button><div class=topbar-content><div class=topbar-content-wrapper><nav class=TableOfContents><ul><li><ul><li><a href=#récupérer-le-dépôt-git-du-cours-et-des-tps>Récupérer le dépôt Git du cours et des TPs</a></li><li><a href=#configurer-le-dépôt>Configurer le dépôt</a></li><li><a href=#programmer--compiler--tester>Programmer / Compiler / Tester</a></li><li><a href=#sauvegarder-son-travail-avec-git>Sauvegarder son travail avec Git</a></li><li><a href=#récupérer-les-derniers-exercices-du-cours-et-du-tp>Récupérer les derniers exercices du cours et du TP</a></li><li><a href=#résoudre-les-conflits>Résoudre les conflits</a></li></ul></li></ul></nav></div></div></div></div><ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype=http://schema.org/BreadcrumbList><li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><a itemprop=item href=../index.html><span itemprop=name>Accueil</span></a><meta itemprop=position content="1">&nbsp;>&nbsp;</li><li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><span itemprop=name>Workflow</span><meta itemprop=position content="2"></li></ol><div class="topbar-area topbar-area-end" data-area=end><div class="topbar-button topbar-button-prev" data-content-empty=disable data-width-s=show data-width-m=show data-width-l=show><a class=topbar-control href=../chapter10/test/index.html title="Questionnaire ☑ (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></div><div class="topbar-button topbar-button-next" data-content-empty=disable data-width-s=show data-width-m=show data-width-l=show><span class=topbar-control><i class="fa-fw fas fa-chevron-right"></i></span></div><div class="topbar-button topbar-button-more" data-content-empty=hide data-width-s=show data-width-m=show data-width-l=show><button class=topbar-control onclick=toggleTopbarFlyout(this) type=button title="Aller plus loin"><i class="fa-fw fas fa-ellipsis-v"></i></button><div class=topbar-content><div class=topbar-content-wrapper><div class="topbar-area topbar-area-more" data-area=more></div></div></div></div></div></div></nav><div id=R-main-overlay></div><main id=R-body-inner class="highlightable page" tabindex=-1><div class=flex-block-wrapper><article class=default><header class=headline></header><h1 id=workflow>Workflow</h1><p>Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.</p><hr><h3 id=récupérer-le-dépôt-git-du-cours-et-des-tps>Récupérer le dépôt Git du cours et des TPs</h3><ol><li><p>Forkez le dépôt <a href=https://github.com/Laefy/CPP_Learning_Code/ rel=external target=_blank>https://github.com/Laefy/CPP_Learning_Code/</a>.
-<a href=#R-image-511dc8e4fc692316243d6d7d219442c7 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/01-fork.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-511dc8e4fc692316243d6d7d219442c7><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/01-fork.png></a></p></li><li><p>Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur &ldquo;clone repository&mldr;&rdquo;
-<a href=#R-image-4cbaefc17ce4ffbbd2d52d97f6ea6f22 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/02-open_vscode.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-4cbaefc17ce4ffbbd2d52d97f6ea6f22><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/02-open_vscode.png></a></p></li><li><p>Copiez le lien de votre dépôt créé par le fork.
-<a href=#R-image-ac5ca09b62cbf69c3101c2084394417e class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/03-get_url.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-ac5ca09b62cbf69c3101c2084394417e><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/03-get_url.png></a></p></li><li><p>Collez ce lien dans la fenêtre de VSCode et sélectionnez &ldquo;Clone from URL&rdquo;.
-<a href=#R-image-23e006ae674effc4bf6fa70734592614 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/04-clone.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-23e006ae674effc4bf6fa70734592614><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/04-clone.png></a></p></li><li><p>Choisissez le répertoire dans lequel le dépôt sera cloné.
-<a href=#R-image-da6e86fb79f6846474f8d51fdb411f31 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/05-select_location.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-da6e86fb79f6846474f8d51fdb411f31><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/05-select_location.png></a></p></li><li><p>Ouvrez le répertoire cloné dans VSCode.
-<a href=#R-image-191675fdf538f12ed2f25467feb2f643 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/05-select_location.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-191675fdf538f12ed2f25467feb2f643><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/05-select_location.png></a></p></li></ol><hr><h3 id=configurer-le-dépôt>Configurer le dépôt</h3><ol><li><p>Ouvrez le menu CMake.
-<a href=#R-image-6c79d9e7922f22a47c0ecf1a3d477722 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/07-open_cmake_view.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-6c79d9e7922f22a47c0ecf1a3d477722><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/07-open_cmake_view.png></a></p></li><li><p>Cliquez sur le bouton permettant de configurer le projet (commande VSCode : <code>CMake: Configure</code>).
-<a href=#R-image-7c4e6caafb9ea30c4187f5ada5284469 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/08-configure.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-7c4e6caafb9ea30c4187f5ada5284469><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/08-configure.png></a></p></li><li><p>Choisissez le compilateur à utiliser dans la liste qui vous est proposée.
-<a href=#R-image-f4c2da4a436695f86eef65fbb38383ba class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/09-select_kit.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-f4c2da4a436695f86eef65fbb38383ba><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/09-select_kit.png></a></p></li><li><p>Autoriser CMake Tools à configurer IntelliSense.
-<a href=#R-image-276f4148d94b6daf44d4f510a5cb7426 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/10-allow_intellisense.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-276f4148d94b6daf44d4f510a5cb7426><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/10-allow_intellisense.png></a></p></li><li><p>L&rsquo;ensemble des exécutables devraient être apparu dans le menu CMake, rangés par dossier.
-<a href=#R-image-9a66c2310c1fc42d036abd352712e7f6 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/11-after_configuration.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-9a66c2310c1fc42d036abd352712e7f6><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/11-after_configuration.png></a></p></li></ol><hr><h3 id=programmer--compiler--tester>Programmer / Compiler / Tester</h3><ol><li><p>Retournez sur la vue du workspace et modifiez les fichiers de votre choix.
-<a href=#R-image-9edf740113712d86183ab6404d291c02 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/12-file_view.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-9edf740113712d86183ab6404d291c02><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/12-file_view.png></a></p></li><li><p>Dans la barre bleue en bas, cliquez sur le bouton de lancement (si vous en avez plusieurs, utilisez celui à droite de l&rsquo;insecte).<br>L&rsquo;exécutable sera compilé automatiquement s&rsquo;il n&rsquo;est pas à jour.<br><a href=#R-image-f90841d9452dbeb04286915fa3430848 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/13-first_run.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-f90841d9452dbeb04286915fa3430848><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/13-first_run.png></a></p></li><li><p>Sélectionnez la cible à exécuter.
-<a href=#R-image-72d757b495fbcc522df860a45477f0d9 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/14-select_exe.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-72d757b495fbcc522df860a45477f0d9><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/14-select_exe.png></a></p></li><li><p>Si le programme a correctement compilé, il devrait s&rsquo;être exécuté dans le terminal.<br>Vous devriez aussi voir apparaître le nom de la cible à-côté du bouton de lancement.
-<a href=#R-image-11bee11e05ec417e7ca18095ea1d263a class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/15-current_exe.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-11bee11e05ec417e7ca18095ea1d263a><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/15-current_exe.png></a></p></li><li><p>Supposons maintenant que vous souhaitiez travailler sur un autre programme.<br>Cliquez sur le nom de la cible à-côté du bouton de lancement.
-<a href=#R-image-66400a7a40fd25f288c73efc3f96ba8d class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/16-change_exe.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-66400a7a40fd25f288c73efc3f96ba8d><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/16-change_exe.png></a></p></li><li><p>Sélectionnez la nouvelle cible à exécuter.
-<a href=#R-image-3cb40a9aeb30cac197cc5a6883d34ff1 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/17-select_new_exe.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-3cb40a9aeb30cac197cc5a6883d34ff1><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/17-select_new_exe.png></a></p></li><li><p>Cliquez enfin sur l&rsquo;un des deux boutons de lancement :<br>- insecte : exécution en mode debug (Ctrl+F5)<br>- lecture : exécution sans debug (Shift+F5)
-<a href=#R-image-97fec607b8cbe0e3204310e83e0e8712 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/18-run_or_debug.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-97fec607b8cbe0e3204310e83e0e8712><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/18-run_or_debug.png></a></p></li></ol><hr><h3 id=sauvegarder-son-travail-avec-git>Sauvegarder son travail avec Git</h3><ol><li><p>Exécutez la commande <code>git status</code> pour voir les fichiers modifiés.
-<a href=#R-image-42eb737d1e56c6e18761ff1df7cfe5ae class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/19-git_status.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-42eb737d1e56c6e18761ff1df7cfe5ae><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/19-git_status.png></a></p></li><li><p>Utilisez ensuite <code>git add</code> sur les fichiers dont vous voulez sauvegarder les changements (<code>git add .</code> pour tout ajouter).
-<a href=#R-image-40c11f16b1e5d1f774efbad562f905f1 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/20-git_add.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-40c11f16b1e5d1f774efbad562f905f1><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/20-git_add.png></a></p></li><li><p>Entrez ensuite la commande <code>git commit -m "un message décrivant vos changements"</code> afin de sauvegarder les changements sur votre disque.<br><a href=#R-image-5d0e27cd00a30cb34aa007c4b867cbc2 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/21-git_commit.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-5d0e27cd00a30cb34aa007c4b867cbc2><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/21-git_commit.png></a></p></li></ol><hr><h3 id=récupérer-les-derniers-exercices-du-cours-et-du-tp>Récupérer les derniers exercices du cours et du TP</h3><ol><li><p>Exécutez la commande <code>git remote add upstream https://github.com/Laefy/CPP_Learning_Code.git</code> pour que votre dépôt local puisse faire référence au dépôt du cours avec l&rsquo;identifiant <code>upstream</code>.<br>Vous pouvez utiliser les commandes <code>git remote -v show</code> pour afficher la liste de tous les dépôts distants suivis par votre dépôt local :<br>- <code>origin</code> fait généralement référence au dépôt cloné,<br>- <code>upstream</code> fait généralement référence au dépôt forké.
-<a href=#R-image-94de55fd7e8e38dc8f84d3899a24df15 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/22-git_remote.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-94de55fd7e8e38dc8f84d3899a24df15><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/22-git_remote.png></a></p></li><li><p>Utilisez ensuite <code>git fetch upstream</code> afin de télécharger dans les branches du dépôt pointé par <code>upstream</code>.
-<a href=#R-image-b1f3324f4e89605ea35c7ef3b40f006f class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/23-git_fetch.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-b1f3324f4e89605ea35c7ef3b40f006f><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/23-git_fetch.png></a></p></li><li><p>Exécutez <code>git branch -a</code> pour vérifier que les branches de <code>upstream</code> ont bien été récupérées dans votre dépôt.<br>Le but de la prochaine manipulation sera d&rsquo;intégrer les changements de la branche <code>upstream/master</code> dans votre branche locale.
-<a href=#R-image-c07e5ac9b749aafe2608cd4234d4a78b class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/24-git_branch.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-c07e5ac9b749aafe2608cd4234d4a78b><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/24-git_branch.png></a></p></li><li><p>Exécutez la commande <code>git merge upstream/master</code> afin de récupérer les changements de la branche.<br>Dans l&rsquo;image suivante, on voit qu&rsquo;il n&rsquo;y a eu aucun nouveau changement sur le dépôt du cours.
-<a href=#R-image-8714bad298968f32d01280b101446fb8 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/25-git_merge_none.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-8714bad298968f32d01280b101446fb8><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/25-git_merge_none.png></a></p></li><li><p>Si après quelques jours, vous pensez que des changements ont eu lieu sur le dépôt distant, vous pouvez réexécuter les commandes <code>git fetch upstream</code> et <code>git merge upstream/master</code>.
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 7.0.1+72a875f1db967152c77914cff4d53f8fcee0e619">
+    <meta name="description" content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
+Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Workflow :: Cours de C&#43;&#43; - Niveau Master">
+    <meta name="twitter:description" content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
+Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné.">
+    <meta property="og:url" content="/workflow/index.html">
+    <meta property="og:site_name" content="Cours de C&#43;&#43; - Niveau Master">
+    <meta property="og:title" content="Workflow :: Cours de C&#43;&#43; - Niveau Master">
+    <meta property="og:description" content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
+Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné.">
+    <meta property="og:locale" content="fr">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Accueil">
+    <meta itemprop="name" content="Workflow :: Cours de C&#43;&#43; - Niveau Master">
+    <meta itemprop="description" content="Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.
+Récupérer le dépôt Git du cours et des TPs Forkez le dépôt https://github.com/Laefy/CPP_Learning_Code/. Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur “clone repository…” Copiez le lien de votre dépôt créé par le fork. Collez ce lien dans la fenêtre de VSCode et sélectionnez “Clone from URL”. Choisissez le répertoire dans lequel le dépôt sera cloné.">
+    <meta itemprop="wordCount" content="965">
+    <title>Workflow :: Cours de C&#43;&#43; - Niveau Master</title>
+    <link href="../css/fontawesome-all.min.css?1729268718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1729268718" rel="stylesheet"></noscript>
+    <link href="../css/nucleus.css?1729268718" rel="stylesheet">
+    <link href="../css/auto-complete.css?1729268718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1729268718" rel="stylesheet"></noscript>
+    <link href="../css/perfect-scrollbar.min.css?1729268718" rel="stylesheet">
+    <link href="../css/fonts.css?1729268718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1729268718" rel="stylesheet"></noscript>
+    <link href="../css/theme.css?1729268718" rel="stylesheet">
+    <link href="../css/theme-mine.css?1729268718" rel="stylesheet" id="R-variant-style">
+    <link href="../css/chroma-relearn-light.css?1729268718" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../css/print.css?1729268718" rel="stylesheet" media="print">
+    <script src="../js/variant.js?1729268718"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'mine' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copier dans le presse-papiers`;
+      window.T_Copied_to_clipboard = `Copié dans le presse-papiers!`;
+      window.T_Copy_link_to_clipboard = `Copier le lien dans le presse-papiers`;
+      window.T_Link_copied_to_clipboard = `Lien copié dans le presse-papiers!`;
+      window.T_Reset_view = `Réinitialiser la vue`;
+      window.T_View_reset = `Vue réinitialisée!`;
+      window.T_No_results_found = `Aucun résultat trouvé pour "{0}"`;
+      window.T_N_results_found = `{1} résultats trouvés pour "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../workflow/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table des matières (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#récupérer-le-dépôt-git-du-cours-et-des-tps">Récupérer le dépôt Git du cours et des TPs</a></li>
+        <li><a href="#configurer-le-dépôt">Configurer le dépôt</a></li>
+        <li><a href="#programmer--compiler--tester">Programmer / Compiler / Tester</a></li>
+        <li><a href="#sauvegarder-son-travail-avec-git">Sauvegarder son travail avec Git</a></li>
+        <li><a href="#récupérer-les-derniers-exercices-du-cours-et-du-tp">Récupérer les derniers exercices du cours et du TP</a></li>
+        <li><a href="#résoudre-les-conflits">Résoudre les conflits</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../index.html"><span itemprop="name">Accueil</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Workflow</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../chapter10/test/index.html" title="Questionnaire ☑ (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Aller plus loin"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="workflow">Workflow</h1>
+
+<p>Afin de pouvoir mettre en place votre environnement de travail rapidement, vous pouvez suivre les étapes ci-dessous.</p>
+<hr>
+<h3 id="récupérer-le-dépôt-git-du-cours-et-des-tps">Récupérer le dépôt Git du cours et des TPs</h3>
+<ol>
+<li>
+<p>Forkez le dépôt <a href="https://github.com/Laefy/CPP_Learning_Code/" rel="external" target="_blank">https://github.com/Laefy/CPP_Learning_Code/</a>.
+<a href="#R-image-48c93037362a5e8a64d5176854d49aa0" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/01-fork.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-48c93037362a5e8a64d5176854d49aa0"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/01-fork.png"></a></p>
+</li>
+<li>
+<p>Ouvrez une nouvelle fenêtre dans VSCode et cliquez sur &ldquo;clone repository&hellip;&rdquo;
+<a href="#R-image-32b499ed8fa672eb7bae8cd3370b81fc" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/02-open_vscode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-32b499ed8fa672eb7bae8cd3370b81fc"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/02-open_vscode.png"></a></p>
+</li>
+<li>
+<p>Copiez le lien de votre dépôt créé par le fork.
+<a href="#R-image-59a7778be76ed85954824e0ec08e40b0" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/03-get_url.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-59a7778be76ed85954824e0ec08e40b0"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/03-get_url.png"></a></p>
+</li>
+<li>
+<p>Collez ce lien dans la fenêtre de VSCode et sélectionnez &ldquo;Clone from URL&rdquo;.
+<a href="#R-image-27620d50b879bb7a1247aefd912aea4c" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/04-clone.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-27620d50b879bb7a1247aefd912aea4c"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/04-clone.png"></a></p>
+</li>
+<li>
+<p>Choisissez le répertoire dans lequel le dépôt sera cloné.
+<a href="#R-image-d205ceb9dadbd9b2970e5619acee99ae" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/05-select_location.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d205ceb9dadbd9b2970e5619acee99ae"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/05-select_location.png"></a></p>
+</li>
+<li>
+<p>Ouvrez le répertoire cloné dans VSCode.
+<a href="#R-image-cc645dfe5ce362134cd4c33899238c93" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/05-select_location.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cc645dfe5ce362134cd4c33899238c93"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/05-select_location.png"></a></p>
+</li>
+</ol>
+<hr>
+<h3 id="configurer-le-dépôt">Configurer le dépôt</h3>
+<ol>
+<li>
+<p>Ouvrez le menu CMake.
+<a href="#R-image-f6aaddfc87ff8a46b6ca4f78e8ceec32" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/07-open_cmake_view.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6aaddfc87ff8a46b6ca4f78e8ceec32"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/07-open_cmake_view.png"></a></p>
+</li>
+<li>
+<p>Cliquez sur le bouton permettant de configurer le projet (commande VSCode : <code>CMake: Configure</code>).
+<a href="#R-image-129ebc956ab22180a4a363d73d70551e" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/08-configure.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-129ebc956ab22180a4a363d73d70551e"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/08-configure.png"></a></p>
+</li>
+<li>
+<p>Choisissez le compilateur à utiliser dans la liste qui vous est proposée.
+<a href="#R-image-5581ebfac1d2efb8b3f07997e21006a4" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/09-select_kit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5581ebfac1d2efb8b3f07997e21006a4"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/09-select_kit.png"></a></p>
+</li>
+<li>
+<p>Autoriser CMake Tools à configurer IntelliSense.
+<a href="#R-image-ae7515daf3c4e67f2e24b9b2f0d4809e" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/10-allow_intellisense.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ae7515daf3c4e67f2e24b9b2f0d4809e"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/10-allow_intellisense.png"></a></p>
+</li>
+<li>
+<p>L&rsquo;ensemble des exécutables devraient être apparu dans le menu CMake, rangés par dossier.
+<a href="#R-image-a5942bb71374dac171c5faf8f66cb91d" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/11-after_configuration.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a5942bb71374dac171c5faf8f66cb91d"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/11-after_configuration.png"></a></p>
+</li>
+</ol>
+<hr>
+<h3 id="programmer--compiler--tester">Programmer / Compiler / Tester</h3>
+<ol>
+<li>
+<p>Retournez sur la vue du workspace et modifiez les fichiers de votre choix.
+<a href="#R-image-732465ab953594f827e51bb36fb5292e" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/12-file_view.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-732465ab953594f827e51bb36fb5292e"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/12-file_view.png"></a></p>
+</li>
+<li>
+<p>Dans la barre bleue en bas, cliquez sur le bouton de lancement (si vous en avez plusieurs, utilisez celui à droite de l&rsquo;insecte).<br>
+L&rsquo;exécutable sera compilé automatiquement s&rsquo;il n&rsquo;est pas à jour.<br>
+<a href="#R-image-ade80ee73acd257d831ec69959c68142" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/13-first_run.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ade80ee73acd257d831ec69959c68142"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/13-first_run.png"></a></p>
+</li>
+<li>
+<p>Sélectionnez la cible à exécuter.
+<a href="#R-image-6870d3166c9178d988796b124896781b" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/14-select_exe.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6870d3166c9178d988796b124896781b"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/14-select_exe.png"></a></p>
+</li>
+<li>
+<p>Si le programme a correctement compilé, il devrait s&rsquo;être exécuté dans le terminal.<br>
+Vous devriez aussi voir apparaître le nom de la cible à-côté du bouton de lancement.
+<a href="#R-image-e0d46008d14ce13cface8c82de2644de" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/15-current_exe.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e0d46008d14ce13cface8c82de2644de"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/15-current_exe.png"></a></p>
+</li>
+<li>
+<p>Supposons maintenant que vous souhaitiez travailler sur un autre programme.<br>
+Cliquez sur le nom de la cible à-côté du bouton de lancement.
+<a href="#R-image-2959bb80c9afc6486a1e2fef36d0306f" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/16-change_exe.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2959bb80c9afc6486a1e2fef36d0306f"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/16-change_exe.png"></a></p>
+</li>
+<li>
+<p>Sélectionnez la nouvelle cible à exécuter.
+<a href="#R-image-d748caae4d2c3e778663efa6d54dce81" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/17-select_new_exe.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d748caae4d2c3e778663efa6d54dce81"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/17-select_new_exe.png"></a></p>
+</li>
+<li>
+<p>Cliquez enfin sur l&rsquo;un des deux boutons de lancement :<br>
+- insecte : exécution en mode debug (Ctrl+F5)<br>
+- lecture : exécution sans debug (Shift+F5)
+<a href="#R-image-3b3bc231a303ce53e75edb92b23073f6" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/18-run_or_debug.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3b3bc231a303ce53e75edb92b23073f6"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/18-run_or_debug.png"></a></p>
+</li>
+</ol>
+<hr>
+<h3 id="sauvegarder-son-travail-avec-git">Sauvegarder son travail avec Git</h3>
+<ol>
+<li>
+<p>Exécutez la commande <code>git status</code> pour voir les fichiers modifiés.
+<a href="#R-image-b647d7deaa602a11fe776a4c9a16b84e" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/19-git_status.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b647d7deaa602a11fe776a4c9a16b84e"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/19-git_status.png"></a></p>
+</li>
+<li>
+<p>Utilisez ensuite <code>git add</code> sur les fichiers dont vous voulez sauvegarder les changements (<code>git add .</code> pour tout ajouter).
+<a href="#R-image-188d062b3e7bc6f3eb89485b40722554" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/20-git_add.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-188d062b3e7bc6f3eb89485b40722554"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/20-git_add.png"></a></p>
+</li>
+<li>
+<p>Entrez ensuite la commande <code>git commit -m &quot;un message décrivant vos changements&quot;</code> afin de sauvegarder les changements sur votre disque.<br>
+<a href="#R-image-7819e1e663f10fb89ff416c9bdbe0b96" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/21-git_commit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7819e1e663f10fb89ff416c9bdbe0b96"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/21-git_commit.png"></a></p>
+</li>
+</ol>
+<hr>
+<h3 id="récupérer-les-derniers-exercices-du-cours-et-du-tp">Récupérer les derniers exercices du cours et du TP</h3>
+<ol>
+<li>
+<p>Exécutez la commande <code>git remote add upstream https://github.com/Laefy/CPP_Learning_Code.git</code> pour que votre dépôt local puisse faire référence au dépôt du cours avec l&rsquo;identifiant <code>upstream</code>.<br>
+Vous pouvez utiliser les commandes <code>git remote -v show</code> pour afficher la liste de tous les dépôts distants suivis par votre dépôt local :<br>
+- <code>origin</code> fait généralement référence au dépôt cloné,<br>
+- <code>upstream</code> fait généralement référence au dépôt forké.
+<a href="#R-image-d7ffc5fe2b8940575e5402dd918a09ba" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/22-git_remote.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7ffc5fe2b8940575e5402dd918a09ba"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/22-git_remote.png"></a></p>
+</li>
+<li>
+<p>Utilisez ensuite <code>git fetch upstream</code> afin de télécharger dans les branches du dépôt pointé par <code>upstream</code>.
+<a href="#R-image-591d418575983e9412677de8fbea547b" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/23-git_fetch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-591d418575983e9412677de8fbea547b"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/23-git_fetch.png"></a></p>
+</li>
+<li>
+<p>Exécutez <code>git branch -a</code> pour vérifier que les branches de <code>upstream</code> ont bien été récupérées dans votre dépôt.<br>
+Le but de la prochaine manipulation sera d&rsquo;intégrer les changements de la branche <code>upstream/master</code> dans votre branche locale.
+<a href="#R-image-01efeda9d82242a58c5c075ec4ee9891" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/24-git_branch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-01efeda9d82242a58c5c075ec4ee9891"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/24-git_branch.png"></a></p>
+</li>
+<li>
+<p>Exécutez la commande <code>git merge upstream/master</code> afin de récupérer les changements de la branche.<br>
+Dans l&rsquo;image suivante, on voit qu&rsquo;il n&rsquo;y a eu aucun nouveau changement sur le dépôt du cours.
+<a href="#R-image-2fc30a6b5c69c8b17e91e871bd7af46b" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/25-git_merge_none.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2fc30a6b5c69c8b17e91e871bd7af46b"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/25-git_merge_none.png"></a></p>
+</li>
+<li>
+<p>Si après quelques jours, vous pensez que des changements ont eu lieu sur le dépôt distant, vous pouvez réexécuter les commandes <code>git fetch upstream</code> et <code>git merge upstream/master</code>.
 Ici, de nouveaux changements ont été détectés et récupérés sur la branche locale <code>master</code>.
-<a href=#R-image-c588e45e361a0adfdcc322790132d0b9 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/26-git_merge_new.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-c588e45e361a0adfdcc322790132d0b9><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/26-git_merge_new.png></a></p></li></ol><hr><h3 id=résoudre-les-conflits>Résoudre les conflits</h3><ol><li><p>Supposons que vous ayiez modifié le fichier CMakeLists.txt à un moment, pour ajouter un commentaire dedans.<br>Vous avez bien entendu sauvegardé votre changement en appelant <code>git add CMakeLists.txt</code> puis <code>git commit -m "..."</code>.
-<a href=#R-image-fa167e209accb164a66fa5326775d78f class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/27-git_commit.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-fa167e209accb164a66fa5326775d78f><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/27-git_commit.png></a></p></li><li><p>Vous lancez ensuite <code>git fetch upstream</code> et <code>git merge upstream/master</code> pour récupérer les derniers changements du cours.<br>Hélas, ces changements contenaient également des modifications autour de la ligne que vous aviez modifié dans le fichier <code>CMakeLists.txt</code>.
+<a href="#R-image-d8541ade3ecbb679f8ae601304e3159b" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/26-git_merge_new.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d8541ade3ecbb679f8ae601304e3159b"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/26-git_merge_new.png"></a></p>
+</li>
+</ol>
+<hr>
+<h3 id="résoudre-les-conflits">Résoudre les conflits</h3>
+<ol>
+<li>
+<p>Supposons que vous ayiez modifié le fichier CMakeLists.txt à un moment, pour ajouter un commentaire dedans.<br>
+Vous avez bien entendu sauvegardé votre changement en appelant <code>git add CMakeLists.txt</code> puis <code>git commit -m &quot;...&quot;</code>.
+<a href="#R-image-d9bafc03364701f420cecfdfe33a8547" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/27-git_commit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d9bafc03364701f420cecfdfe33a8547"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/27-git_commit.png"></a></p>
+</li>
+<li>
+<p>Vous lancez ensuite <code>git fetch upstream</code> et <code>git merge upstream/master</code> pour récupérer les derniers changements du cours.<br>
+Hélas, ces changements contenaient également des modifications autour de la ligne que vous aviez modifié dans le fichier <code>CMakeLists.txt</code>.
 Votre branche locale se retrouve donc dans un état de conflit.
-<a href=#R-image-7692a1feef33fd26c41d674c360676e6 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/28-git_merge_conflict.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-7692a1feef33fd26c41d674c360676e6><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/28-git_merge_conflict.png></a></p></li><li><p>Vous pouvez constater dans la sortie sur le terminal que le conflit concerne effectivement le fichier <code>CMakeLists.txt</code>, mais ce n&rsquo;est pas forcément ce qu&rsquo;il y a de plus lisible.<br>Ouvrez du coup le menu SourceControl dans VSCode.
-<a href=#R-image-84e666f767c9321e07a511c696dec5b7 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/29-git_check_conflict.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-84e666f767c9321e07a511c696dec5b7><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/29-git_check_conflict.png></a></p></li><li><p>Vous pouvez maintenant voir clairement la liste de tous les fichiers contenant des conflits. Ici, il n&rsquo;y a que <code>CMakeLists.txt</code>.<br>Cliquez sur ce fichier afin de l&rsquo;ouvrir dans l&rsquo;éditeur.<br>Vos propres modifications apparaissent dans la partie &ldquo;Current Change&rdquo;, et les modifications que vous essayez de merger apparaissent dans la partie &ldquo;Incoming Change&rdquo;.
-<a href=#R-image-bd0ae7bc99cbbece70e04858a6cab888 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/30-git_explain_conflict.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-bd0ae7bc99cbbece70e04858a6cab888><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/30-git_explain_conflict.png></a></p></li><li><p>Vous pouvez cliquer sur l&rsquo;une des options juste au-dessus du conflit pour choisir les modifications que vous préférez garder.<br>Vous pouvez aussi éditer le fichier à la main directement.
-<a href=#R-image-1e99211d39bff8b012908ca00768f43a class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/31-git_quick_action.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-1e99211d39bff8b012908ca00768f43a><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/31-git_quick_action.png></a></p></li><li><p>Ici, vous avez décidé de conserver les nouveaux changements (&ldquo;Accept Incoming Change&rdquo;) et avez sauvegardé le fichier.<br>Mais vous avez finalement des regrets&mldr;<br>Pour revenir en arrière, exécutez la commande <code>git merge --abort</code>.
-<a href=#R-image-380073386f5cb47cbba361d890facb7d class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/32-git_merge_abort.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-380073386f5cb47cbba361d890facb7d><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/32-git_merge_abort.png></a></p></li><li><p>Vous devriez constater que tous les fichiers sont revenus à l&rsquo;état qu&rsquo;ils avaient avant d&rsquo;essayer de merger.<br>Entrez de nouveau la commande <code>git merge upstream/master</code>.
-<a href=#R-image-36dbdb3a8daf44a3d56281c2c6c140e3 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/33-git_merge_retry.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-36dbdb3a8daf44a3d56281c2c6c140e3><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/33-git_merge_retry.png></a></p></li><li><p>Ce coup-ci, vous décidez d&rsquo;éditer le fichier à la main, afin de conserver les deux commentaires : le vôtre et celui du cours.
-<a href=#R-image-79359a6a856dbc8828291eab57b32afe class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/34-git_resolve_conflict.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-79359a6a856dbc8828291eab57b32afe><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/34-git_resolve_conflict.png></a></p></li><li><p>Lancez la commande <code>git status</code> pour être sûr de ne rien oublier.<br>Ici, le fichier CMakeLists.txt apparaît toujours dans la liste des fichiers à merger.
-<a href=#R-image-1a1cfc01d3cd0ac7f5fc1cde90c6ffbb class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/35-git_merge_status.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-1a1cfc01d3cd0ac7f5fc1cde90c6ffbb><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/35-git_merge_status.png></a></p></li><li><p>Utilisez <code>git add CMakeLists.txt</code> pour valider la résolution du conflit dans ce fichier, puis finalement le merge avec <code>git commit</code>.<br>Un fichier devrait s&rsquo;ouvrir dans l&rsquo;éditeur configuré pour git (VSCode dans la capture, mais s&rsquo;agira probablement d&rsquo;un autre éditeur chez-vous).
+<a href="#R-image-7203bbfce6e692d0375c58526653fcd5" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/28-git_merge_conflict.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7203bbfce6e692d0375c58526653fcd5"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/28-git_merge_conflict.png"></a></p>
+</li>
+<li>
+<p>Vous pouvez constater dans la sortie sur le terminal que le conflit concerne effectivement le fichier <code>CMakeLists.txt</code>, mais ce n&rsquo;est pas forcément ce qu&rsquo;il y a de plus lisible.<br>
+Ouvrez du coup le menu SourceControl dans VSCode.
+<a href="#R-image-a3ba7c518dd5bff4f3bcb2ac13c10671" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/29-git_check_conflict.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3ba7c518dd5bff4f3bcb2ac13c10671"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/29-git_check_conflict.png"></a></p>
+</li>
+<li>
+<p>Vous pouvez maintenant voir clairement la liste de tous les fichiers contenant des conflits. Ici, il n&rsquo;y a que <code>CMakeLists.txt</code>.<br>
+Cliquez sur ce fichier afin de l&rsquo;ouvrir dans l&rsquo;éditeur.<br>
+Vos propres modifications apparaissent dans la partie &ldquo;Current Change&rdquo;, et les modifications que vous essayez de merger apparaissent dans la partie &ldquo;Incoming Change&rdquo;.
+<a href="#R-image-645675ac2cc36010b117d4ce1d46fa90" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/30-git_explain_conflict.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-645675ac2cc36010b117d4ce1d46fa90"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/30-git_explain_conflict.png"></a></p>
+</li>
+<li>
+<p>Vous pouvez cliquer sur l&rsquo;une des options juste au-dessus du conflit pour choisir les modifications que vous préférez garder.<br>
+Vous pouvez aussi éditer le fichier à la main directement.
+<a href="#R-image-fb89a7465e1cddd95129fa72730d4fbd" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/31-git_quick_action.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb89a7465e1cddd95129fa72730d4fbd"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/31-git_quick_action.png"></a></p>
+</li>
+<li>
+<p>Ici, vous avez décidé de conserver les nouveaux changements (&ldquo;Accept Incoming Change&rdquo;) et avez sauvegardé le fichier.<br>
+Mais vous avez finalement des regrets&hellip;<br>
+Pour revenir en arrière, exécutez la commande <code>git merge --abort</code>.
+<a href="#R-image-a70e3860e09a666e84765ea98fde7440" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/32-git_merge_abort.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a70e3860e09a666e84765ea98fde7440"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/32-git_merge_abort.png"></a></p>
+</li>
+<li>
+<p>Vous devriez constater que tous les fichiers sont revenus à l&rsquo;état qu&rsquo;ils avaient avant d&rsquo;essayer de merger.<br>
+Entrez de nouveau la commande <code>git merge upstream/master</code>.
+<a href="#R-image-3645a40049826121b683001a43a6643f" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/33-git_merge_retry.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3645a40049826121b683001a43a6643f"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/33-git_merge_retry.png"></a></p>
+</li>
+<li>
+<p>Ce coup-ci, vous décidez d&rsquo;éditer le fichier à la main, afin de conserver les deux commentaires : le vôtre et celui du cours.
+<a href="#R-image-872ca89e13d6acf6e13e8a2c05fcc124" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/34-git_resolve_conflict.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-872ca89e13d6acf6e13e8a2c05fcc124"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/34-git_resolve_conflict.png"></a></p>
+</li>
+<li>
+<p>Lancez la commande <code>git status</code> pour être sûr de ne rien oublier.<br>
+Ici, le fichier CMakeLists.txt apparaît toujours dans la liste des fichiers à merger.
+<a href="#R-image-cabd819d4e89f552d6d3eccc81407384" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/35-git_merge_status.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cabd819d4e89f552d6d3eccc81407384"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/35-git_merge_status.png"></a></p>
+</li>
+<li>
+<p>Utilisez <code>git add CMakeLists.txt</code> pour valider la résolution du conflit dans ce fichier, puis finalement le merge avec <code>git commit</code>.<br>
+Un fichier devrait s&rsquo;ouvrir dans l&rsquo;éditeur configuré pour git (VSCode dans la capture, mais s&rsquo;agira probablement d&rsquo;un autre éditeur chez-vous).
 Sauvegardez et fermez ce fichier pour enregistrer le commit.
-<a href=#R-image-bbdb833751fa72f4a399216ce26dff8d class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/36-git_merge_commit.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-bbdb833751fa72f4a399216ce26dff8d><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/36-git_merge_commit.png></a></p></li><li><p>Utilisez maintenant la commande <code>git log</code> pour vérifier que vous avez bien récupérer les changements de la branche <code>upstream/master</code>.
-<a href=#R-image-49975ac8a1ae77fc29588690cdae83f2 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/37-git_log.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-49975ac8a1ae77fc29588690cdae83f2><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/37-git_log.png></a></p></li><li><p>Vous devriez voir apparaitre la liste des derniers commits de votre branche local (du moins récent en bas au plus récent en haut).<br>Vous pouvez voir que vous êtes bien à jour de la branche <code>upstream/master</code>, car son nom apparaît à-côté de l&rsquo;un des commits.<br>Ensuite, vous trouvez la liste de vos propres commits.<br>Pour terminer, le commit du merge que vous venez de réaliser apparaît tout en haut de la liste.
-<a href=#R-image-56b5d89722378f1e62b828cca7adbae5 class=lightbox-link><img class="noborder lazy lightbox noshadow figure-image" loading=lazy src=../images/workflow/38-git_log_result.png style=height:auto;width:auto></a>
-<a href=javascript:history.back(); class=lightbox-back id=R-image-56b5d89722378f1e62b828cca7adbae5><img class="noborder lazy lightbox noshadow lightbox-image" loading=lazy src=../images/workflow/38-git_log_result.png></a></p></li></ol><footer class=footline></footer></article></div></main></div><aside id=R-sidebar class="default-animation showVisitedLinks"><div id=R-header-topbar class=default-animation></div><div id=R-header-wrapper class=default-animation><div id=R-header class=default-animation><a id=logo href=../>🎄 C++ 🎄</a></div></div><div id=R-homelinks class=default-animation><hr class=padding></div><div id=R-content-wrapper class=highlightable><div id=R-topics><ul class="enlarge morespace collapsible-menu"><li data-nav-id=/chapter0/index.html><a class=padding href=../chapter0/index.html><b>0- </b>Mise en place<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-bb41caf94f12b8a1a4b5e560230e7851 class=collapsible-menu></ul></li><li data-nav-id=/chapter1/index.html><a class=padding href=../chapter1/index.html><b>1- </b>Introduction au C++<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-6c398714eae4372920aec3a1e6c2e143 class=collapsible-menu></ul></li><li data-nav-id=/chapter2/index.html><a class=padding href=../chapter2/index.html><b>2- </b>Classes<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-b1df0095a9fd74320697a6d478418ec3 class=collapsible-menu></ul></li><li data-nav-id=/chapter3/index.html><a class=padding href=../chapter3/index.html><b>3- </b>Cycle de vie<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-9f6546bce6f8e9a77063b71c880fd5b8 class=collapsible-menu></ul></li><li data-nav-id=/chapter4/index.html><a class=padding href=../chapter4/index.html><b>4- </b>Héritage<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-48065e8b6e7e69533ca73b3931c8a0a1 class=collapsible-menu></ul></li><li data-nav-id=/chapter5/index.html><a class=padding href=../chapter5/index.html><b>5- </b>Librairie standard<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-86528e6ba587b53932a1dafaa9cd375c class=collapsible-menu></ul></li><li data-nav-id=/chapter6/index.html><a class=padding href=../chapter6/index.html><b>6- </b>Algorithmes<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-016ee40825ff7c4aeecbac08a8ca264b class=collapsible-menu></ul></li><li data-nav-id=/chapter9/index.html><a class=padding href=../chapter9/index.html><b>7- </b>Templates<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-24ddf636ccd0ce3ef39c8060d1779332 class=collapsible-menu></ul></li><li data-nav-id=/chapter10/index.html><a class=padding href=../chapter10/index.html><b>8- </b>Paramètres de templates<i class="fa-fw fas fa-check read-icon"></i></a><ul id=R-subsections-66e6e0c58d73995ecc09e8fbbe358e51 class=collapsible-menu></ul></li><li class="active hidden" data-nav-id=/workflow/index.html><a class=padding href=../workflow/index.html>Workflow<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></div><div id=R-shortcuts><div class="nav-title padding">Accès rapide</div><ul class=space><li><a class=padding href=https://github.com/Laefy/CPP_Learning_Code/><i class='fab fa-github'></i> Dépôt Cours</a></li><li><a class=padding href=https://github.com/Laefy/CPP_Exercises/><i class='fab fa-github'></i> Dépôt TPs</a></li><li><a class=padding href=../slides/index.html><i class='far fa-file-powerpoint'></i> Slides</a></li><li><a class=padding href=../workflow/index.html><i class='far fa-list-alt'></i> Workflow</a></li><li><a class=padding href=../faq/index.html><i class='fas fa-question-circle'></i> FAQ</a></li><li><a class=padding href=../chapter0/6-tips/index.html><i class='fa fa-rocket'></i> Astuces</a></li><li><a class=padding href=https://godbolt.org/><i class='fas fa-cog'></i> Compiler Explorer</a></li><li><a class=padding href=https://en.cppreference.com/w/><i class='fas fa-passport'></i> CPP-Ref</a></li></ul></div><div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter"></div><div id=R-menu-footer><hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter"><div id=R-prefooter class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVisitedLinks"><ul><li id=R-select-language-container class=footerLangSwitch><div class="padding menu-control"><i class="fa-fw fas fa-language"></i>
-<span>&nbsp;</span><div class=control-style><label class=a11y-only for=R-select-language>Langue</label>
-<select id=R-select-language onchange="location=this.querySelector(this.value).dataset.url"><option id=R-select-language-fr value=#R-select-language-fr data-url=../workflow/index.html lang=fr selected>Français</option></select></div><div class=clear></div></div></li><li id=R-select-variant-container class=footerVariantSwitch><div class="padding menu-control"><i class="fa-fw fas fa-paint-brush"></i>
-<span>&nbsp;</span><div class=control-style><label class=a11y-only for=R-select-variant>Thème</label>
-<select id=R-select-variant onchange=window.variants&&variants.changeVariant(this.value)><option id=R-select-variant-mine value=mine selected>Mine</option></select></div><div class=clear></div></div><script>window.variants&&variants.markSelectedVariant()</script></li><li class="footerVisitedLinks showVisitedLinks"><div class="padding menu-control"><i class="fa-fw fas fa-history"></i>
-<span>&nbsp;</span><div class=control-style><button onclick=clearHistory()>Supprimer l'historique</button></div><div class=clear></div></div></li></ul></div><div id=R-footer class="footerFooter showFooter"><p>Built with <a href=https://github.com/McShelby/hugo-theme-relearn title=love><i class="fas fa-heart"></i></a> by <a href=https://gohugo.io/>Hugo</a></p></div></div></div></aside><script src=../js/clipboard.min.js?1729268597 defer></script><script src=../js/perfect-scrollbar.min.js?1729268597 defer></script><script src=../js/theme.js?1729268597 defer></script><button id=footer-question-btn title="Envoyer un message à propos du texte sélectionné" onclick=openQuestionForm() disabled><i class="fas fa-question-circle"></i></button><div id=footer-question-window disabled><form id=question method=POST action=https://formsubmit.co/3aa0f379a1aed9c454634cc2da153a7b target=question-submitted onsubmit=cleanQuestionFormContent()><input type=email name=email placeholder=mon_email@smthg.com required onchange=updateQuestionFormSubject()>
-<textarea name=question rows=7 cols=30 placeholder="Mon message..."></textarea>
-<input type=hidden name=selection>
-<input type=hidden name=_replyto>
-<input type=hidden name=_subject>
-<input type=hidden name=_template value=box>
-<input type=hidden name=_captcha value=false>
-<input type=hidden name=_next value=//question-submitted/>
-<input type=submit disabled style=display:none aria-hidden=true>
-<input type=submit value=Envoyer></form><iframe class=hidden name=question-submitted src></iframe></div><script>function updateQuestionFormSubject(){let e=document.querySelector('#question>input[name="email"]').value;document.querySelector('#question>input[name="_subject"]').value="[C++][Chapitre -1] "+e+", retour sur ta question"}function cleanQuestionFormContent(){function e(e){e.value=e.value.replace(/\[\.\./g,"[ ..")}e(document.querySelector('#question>textarea[name="question"]')),e(document.querySelector('#question>input[name="selection"]'))}function openQuestionForm(){document.getElementById("footer-question-window").removeAttribute("disabled");var e=window.getSelection().toString();document.querySelector('#question>input[name="selection"]').value=e}function updateQuestionWidgetState(e){var t=document.getElementById("R-body-inner"),n=window.getSelection(),s=document.getElementById("footer-question-window");document.getElementById("footer-question-btn").disabled=n.isCollapsed||t==null||t.contains(n.anchorNode)==!1||t.contains(n.focusNode)==!1,e!==void 0&&e.type=="mouseup"&&s.contains(e.target)==!1&&s.contains(document.activeElement)==!1&&s.setAttribute("disabled",!0)}updateQuestionFormSubject(),document.onmouseup=document.onkeyup=document.onselectionchange=updateQuestionWidgetState,updateQuestionWidgetState()</script></body></html>
+<a href="#R-image-1c24ada974bb8c162aac763c39922223" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/36-git_merge_commit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c24ada974bb8c162aac763c39922223"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/36-git_merge_commit.png"></a></p>
+</li>
+<li>
+<p>Utilisez maintenant la commande <code>git log</code> pour vérifier que vous avez bien récupérer les changements de la branche <code>upstream/master</code>.
+<a href="#R-image-48007a466dbb5e0367a7fae3d639dc84" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/37-git_log.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-48007a466dbb5e0367a7fae3d639dc84"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/37-git_log.png"></a></p>
+</li>
+<li>
+<p>Vous devriez voir apparaitre la liste des derniers commits de votre branche local (du moins récent en bas au plus récent en haut).<br>
+Vous pouvez voir que vous êtes bien à jour de la branche <code>upstream/master</code>, car son nom apparaît à-côté de l&rsquo;un des commits.<br>
+Ensuite, vous trouvez la liste de vos propres commits.<br>
+Pour terminer, le commit du merge que vous venez de réaliser apparaît tout en haut de la liste.
+<a href="#R-image-4d4a2b224af544e589655a1745a6e99d" class="lightbox-link"><img class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="../images/workflow/38-git_log_result.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4d4a2b224af544e589655a1745a6e99d"><img class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="../images/workflow/38-git_log_result.png"></a></p>
+</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation showVisitedLinks">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="logo" href="../">🎄 C++ 🎄</a>
+
+        </div>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/chapter0/index.html"><a class="padding" href="../chapter0/index.html"><b>0- </b>Mise en place<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-bb41caf94f12b8a1a4b5e560230e7851" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter1/index.html"><a class="padding" href="../chapter1/index.html"><b>1- </b>Introduction au C&#43;&#43;<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-6c398714eae4372920aec3a1e6c2e143" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter2/index.html"><a class="padding" href="../chapter2/index.html"><b>2- </b>Classes<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b1df0095a9fd74320697a6d478418ec3" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter3/index.html"><a class="padding" href="../chapter3/index.html"><b>3- </b>Cycle de vie<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-9f6546bce6f8e9a77063b71c880fd5b8" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter4/index.html"><a class="padding" href="../chapter4/index.html"><b>4- </b>Héritage<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-48065e8b6e7e69533ca73b3931c8a0a1" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter5/index.html"><a class="padding" href="../chapter5/index.html"><b>5- </b>Librairie standard<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-86528e6ba587b53932a1dafaa9cd375c" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter6/index.html"><a class="padding" href="../chapter6/index.html"><b>6- </b>Algorithmes<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-016ee40825ff7c4aeecbac08a8ca264b" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter9/index.html"><a class="padding" href="../chapter9/index.html"><b>7- </b>Templates<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-24ddf636ccd0ce3ef39c8060d1779332" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/chapter10/index.html"><a class="padding" href="../chapter10/index.html"><b>8- </b>Paramètres de templates<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-66e6e0c58d73995ecc09e8fbbe358e51" class="collapsible-menu"></ul></li>
+            <li class="active hidden " data-nav-id="/workflow/index.html"><a class="padding" href="../workflow/index.html">Workflow<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">Accès rapide</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/Laefy/CPP_Learning_Code/"><i class='fab fa-github'></i> Dépôt Cours</a></li>
+            <li><a class="padding" href="https://github.com/Laefy/CPP_Exercises/"><i class='fab fa-github'></i> Dépôt TPs</a></li>
+            <li><a class="padding" href="../slides/index.html"><i class='far fa-file-powerpoint'></i> Slides</a></li>
+            <li><a class="padding" href="../workflow/index.html"><i class='far fa-list-alt'></i> Workflow</a></li>
+            <li><a class="padding" href="../faq/index.html"><i class='fas fa-question-circle'></i> FAQ</a></li>
+            <li><a class="padding" href="../chapter0/6-tips/index.html"><i class='fa fa-rocket'></i> Astuces</a></li>
+            <li><a class="padding" href="https://godbolt.org/"><i class='fas fa-cog'></i> Compiler Explorer</a></li>
+            <li><a class="padding" href="https://en.cppreference.com/w/"><i class='fas fa-passport'></i> CPP-Ref</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Langue</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-fr" value="#R-select-language-fr" data-url="../workflow/index.html" lang="fr" selected>Français</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Thème</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-mine" value="mine" selected>Mine</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks showVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Supprimer l&#39;historique</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="../js/clipboard.min.js?1729268718" defer></script>
+    <script src="../js/perfect-scrollbar.min.js?1729268718" defer></script>
+    <script src="../js/theme.js?1729268718" defer></script>
+
+
+
+    
+
+
+<button id="footer-question-btn" title="Envoyer un message à propos du texte sélectionné" onclick="openQuestionForm()" disabled><i class="fas fa-question-circle"></i></button>
+
+<div id="footer-question-window" disabled>
+    <form id="question" method=POST action="https://formsubmit.co/3aa0f379a1aed9c454634cc2da153a7b"
+        target="question-submitted" onsubmit="cleanQuestionFormContent()">
+
+        <input type="email" name="email" placeholder="mon_email@smthg.com" required onchange="updateQuestionFormSubject()" />
+        <textarea name="question" rows="7" cols="30" placeholder="Mon message..."></textarea>
+        <input type="hidden" name="selection" />
+
+        <input type="hidden" name="_replyto" />
+        <input type="hidden" name="_subject" />
+        <input type="hidden" name="_template" value="box" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="//question-submitted/" />
+
+        <input type="submit" disabled style="display: none" aria-hidden="true" />
+        <input type="submit" value="Envoyer" />
+    </form>
+
+    <iframe class="hidden" name="question-submitted" src=""></iframe>
+</div>
+
+<script>
+
+    function updateQuestionFormSubject() {
+        let email = document.querySelector('#question>input[name="email"]').value;
+        document.querySelector('#question>input[name="_subject"]').value = "[C++][Chapitre -1] " + email + ", retour sur ta question";
+    }
+
+    function cleanQuestionFormContent() {
+
+        function clean(element) {
+            
+            element.value = element.value.replace(/\[\.\./g, "[ ..");
+        }
+
+        clean(document.querySelector('#question>textarea[name="question"]'))
+        clean(document.querySelector('#question>input[name="selection"]'))
+    }
+
+    function openQuestionForm() {
+        document.getElementById("footer-question-window").removeAttribute("disabled");
+
+        var selection = window.getSelection().toString();
+        document.querySelector('#question>input[name="selection"]').value = selection
+    }
+
+    function updateQuestionWidgetState(event) {
+        var body = document.getElementById("R-body-inner");
+        var selection = window.getSelection();
+        var question_window = document.getElementById("footer-question-window");
+
+        document.getElementById("footer-question-btn").disabled =
+            selection.isCollapsed ||
+            body == null ||
+            body.contains(selection.anchorNode) == false ||
+            body.contains(selection.focusNode) == false;
+
+        if (event !== undefined
+            && event.type == "mouseup"
+            && question_window.contains(event.target) == false
+            && question_window.contains(document.activeElement) == false) {
+            question_window.setAttribute("disabled", true);
+        }
+    }
+
+    updateQuestionFormSubject();
+
+    document.onmouseup = document.onkeyup = document.onselectionchange = updateQuestionWidgetState;
+    updateQuestionWidgetState();
+
+</script>
+
+
+  </body>
+</html>
