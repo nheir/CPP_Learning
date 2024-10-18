@@ -1,12 +1,12 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="hidden-solution">
 
-    <button class="show-solution-btn" onclick="$(this).addClass('off'); $(this).next().removeClass('off');">
+    <button class="show-solution-btn" onclick="this.classList.add('off'); this.nextElementSibling.classList.remove('off');">
         ⮟ Afficher la solution ⮟
     </button>
 
     <div class="off">
-        <button class="hide-solution-btn" onclick="$(this).parent().addClass('off'); $(this).parent().prev().removeClass('off');">
+        <button class="hide-solution-btn" onclick="this.parentElement.classList.add('off'); this.parentElement.previousElementSibling.classList.remove('off');">
             ⮝ Masquer la solution ⮝
         </button>
 
