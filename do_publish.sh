@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+set -e
 
 rm -rf public
 git worktree prune
-git branch -D gh-pages 2> /dev/null
+git branch -D gh-pages 2> /dev/null || true
 git worktree add --no-checkout -B gh-pages public origin/gh-pages
 hugo
 
